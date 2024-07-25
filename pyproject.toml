@@ -1,0 +1,11 @@
+[tool.briefcase]
+project_name = "ChatApp"
+bundle = "com.yourcompany"
+version = "0.0.1"
+url = "https://yourcompany.com"
+
+[tool.briefcase.app.chat_app]
+formal_name = "Chat App"
+description = "A simple chat application"
+sources = ["src"]
+license = "MIT"
